@@ -1,0 +1,80 @@
+body,html{
+	height: 100%;
+}
+h1{
+	font-size: 30px;
+	color: white;
+}
+
+p{
+	color: white;
+}
+
+#container{
+	border: 1px solid white;
+	height: 100%;
+	display: grid;
+	grid-template-rows: minmax(min-content,20%) minmax(min-content,7%) auto 15%;
+	grid-row-gap: 1%;
+	background-color: gray;
+}
+
+#formulario{
+	border: 1px solid white;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+
+#header{
+	border: 1px solid white;
+	background-image: url('');
+}
+
+#main{
+	border: 1px solid white;
+	display: grid;
+	grid-template-columns: center;
+	grid-column-gap: 1%;
+}
+
+#main #menu-lateral, #main #menu-lateral-direita{
+	border: 1px solid white;
+	padding: 3px;
+}
+
+#main #content{
+	border: 1px solid white;
+	align-content: center;
+}
+
+#footer{
+	border: 1px solid white;
+}
+
+#menu{
+	border: 1px solid white;
+}
+
+#menu ul{
+	display: flex;
+	list-style: none;
+	padding: 0px;
+}
+
+#menu ul li{
+	border: 1px solid white;
+	margin: 3px;
+	padding: 5px;
+}
+
+#menu-lateral-direita ul, #menu-lateral ul{	
+	list-style: none;
+	padding: 0px;	
+}
+
+#menu-lateral-direita ul li, #menu-lateral ul li{
+	border: 1px solid white;
+	margin: 3px;
+	padding: 5px;
+}

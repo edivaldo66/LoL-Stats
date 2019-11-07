@@ -1,0 +1,39 @@
+body,html{
+	height: 100%;
+}
+
+
+#container{
+	border: 1px solid white;
+	height: 100%;
+	display: grid;
+	grid-template-rows: 20% minmax(min-content, 7%);
+	padding: 1%;
+}
+
+#header{
+	border: 1px solid white;
+}
+
+#main{
+	border: 1px solid white;
+	display: grid;
+	grid-template-columns: auto;
+}
+
+#main #menu-lateral{
+	border: 1px solid white;
+	display: none;
+}
+
+#main #content{
+	border: 1px solid white;
+}
+
+#footer{
+	border: 1px solid white;
+}
+
+#main #menu-lateral-direita{
+	display: none;
+}
