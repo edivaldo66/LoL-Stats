@@ -20,6 +20,11 @@ p{
 }
 
 #formulario{
+	position: relative;
+	overflow: auto;
+}
+
+#pagina{
 	border: 1px solid white;
 	margin-left: 20%;
 	margin-right: 20%;
@@ -66,6 +71,7 @@ p{
 	border: 1px solid white;
 	margin: 3px;
 	padding: 5px;
+	list-style: none;
 }
 
 #menu-lateral-direita ul, #menu-lateral ul{	
@@ -74,6 +80,7 @@ p{
 }
 
 #menu-lateral-direita ul li, #menu-lateral ul li{
+	list-style: none;
 	border: 1px solid white;
 	margin: 3px;
 	padding: 5px;
